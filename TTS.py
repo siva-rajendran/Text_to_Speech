@@ -12,4 +12,4 @@ c=gTTS(lang=a, text=m, slow=False)
 
 c.save("Thirukkural.mp3")
 
-os.system("Thirukkural.mp3")
+os.system("mpv Thirukkural.mp3")
